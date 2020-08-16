@@ -2,8 +2,8 @@
 
 * By: Adam Jones
 * Date: 7/14/20 (Refactored on 8/16/20)
-* GitHub URL: 
-* Deployed App URL: 
+* GitHub URL: https://github.com/adamwjones/Password-Generator.git
+* Deployed App URL: https://adamwjones.github.io/Password-Generator/
 
 * Overview: Basic application that generates a random password based on user-selected criteria. This app will run in the browser and feature dynamically updated HTML and CSS powered by introductory JavaScript code. Also attempted to design a clean and polished responsive UI. 
 
