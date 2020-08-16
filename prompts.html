@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Password Generator Prompts</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css'>
+		<link rel="stylesheet" href="Assets/style.css">
+	</head> 
+
+<!-- Start Password Generator -->
+	<body>
+		<div class="container">
+			
+			<h2>Prompts<br/>for Greater Security</h2>
+
+			<div class="password-container">
+				<span id="password" >Password</span>
+			</div>
+
+<!-- Start User Selection Section -->		
+			<form>
+				<div class="selection">
+					<label>Password length <br/>(Between 8 - 128 characters)</label>
+					<input type="number" id="lizzy" min='8' max='128' value='20' />
+				</div>
+
+				<div class="selection">
+					<label>Include special characters</label> 
+					<input type="checkbox" id="specializzy" unchecked />
+				</div>
+
+				<div class="selection">
+					<label>Include numbers</label> 
+					<input type="checkbox" id="nizzy" unchecked />
+				</div>
+
+				<div class="selection">
+					<label>Include uppercase letters</label> 
+					<input type="checkbox" id="upizzy" unchecked />
+				</div>
+
+				<div class="selection">
+					<label>Include lowercase letters</label> 
+					<input type="checkbox" id="lowizzy" unchecked />
+				</div>
+
+			</form>
+
+			<button class="btn btn-large" id="generate">
+				Generate password
+			</button>
+
+		</div>
+
+<!-- Link to JS File -->
+		<script  src="Assets/script.js"></script>
+	</body>
+</html>
